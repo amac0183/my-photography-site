@@ -1,0 +1,35 @@
+{
+  "name": "my-photography-site",
+  "version": "1.0.0",
+  "description": "Web pages for my photography site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amac0183/my-photography-site.git"
+  },
+  "author": "Andrew Hayakawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amac0183/my-photography-site/issues"
+  },
+  "homepage": "https://github.com/amac0183/my-photography-site#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  }
+}
