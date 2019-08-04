@@ -21,5 +21,8 @@ module.exports = merge(common, {
   },
   devServer: {
       port: 3000
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
 });

@@ -17,5 +17,8 @@ module.exports = merge(common, {
         use: ['file-loader']
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
 });
